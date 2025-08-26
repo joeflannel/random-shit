@@ -1,0 +1,28 @@
+# Idea 3 – Photo Sign Translation
+
+Turn a photo of a sign into a simple translation in the user's display language.
+
+**Core function (step-by-step):**
+1) User chooses source language or leaves it on Auto-Detect.
+2) User captures a photo (camera) or selects one from the gallery.
+3) App performs OCR on the image to extract text (on-device preferred; fallback to cloud).
+4) If source language is Auto, detect language from extracted text.
+5) Translate extracted text into the user’s display language using a lightweight translation API.
+6) Show the cleaned translated text on a simple result screen with a "Copy" button.
+
+**Inputs/Outputs:**
+- Input: image of sign, optional explicit source language
+- Output: extracted text (plain), translation (plain)
+
+**Interface:**
+- Capture/Upload button on the home screen
+- Result screen with two sections: Original (plain text) and Translation (plain text), plus "Copy"
+
+**Integrations:**
+- OCR engine (on-device preferred; e.g., platform OCR or Tesseract)
+- Translation API (e.g., DeepL/Google; small usage)
+- Local storage for last result (so user can re-open offline)
+
+**Notes:**
+- No AR overlays, no bounding boxes; keep it text-in → text-out
+- Handle low-light warning and ask user to retake if OCR fails

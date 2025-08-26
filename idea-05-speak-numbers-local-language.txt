@@ -1,0 +1,27 @@
+# Idea 5 – Speak Numbers in Local Language
+
+Convert a number to words and speak it in the selected language/locale.
+
+**Core function (step-by-step):**
+1) User selects a language/locale.
+2) User enters a number (0–999,999).
+3) App converts the number to words using language-specific rules.
+4) Display the spelled-out text and provide a "Play" button to speak it with TTS.
+5) Save a short local history (last 5 entries) for quick reuse.
+
+**Inputs/Outputs:**
+- Input: number, language/locale
+- Output: spelled-out text, audio pronunciation
+
+**Interface:**
+- Single screen with numeric input, locale selector, "Convert" and "Play" buttons
+- Minimal history chip row (tap to refill)
+
+**Integrations:**
+- Number-to-words library/data per language
+- System TTS (preferred) or lightweight cloud TTS
+- Local storage for history and locale
+
+**Notes:**
+- Validate input and show concise errors (non-numeric, out-of-range)
+- Offline-capable if number rules + system TTS are available locally

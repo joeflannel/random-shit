@@ -1,0 +1,26 @@
+# Idea 2 – Local Place Name Pronouncer
+
+Pronounce any place name the user types using a local-accent voice for the selected locale.
+
+**Core function (step-by-step):**
+1) User selects a language/locale (e.g., Spanish – Mexico, French – France).
+2) User enters a place name as plain text.
+3) App sends the text to a text-to-speech (TTS) engine configured with the selected locale's voice.
+4) App plays the returned audio with a simple play/pause control.
+5) Cache the last few inputs and generated audio for quick reuse (local only).
+
+**Inputs/Outputs:**
+- Input: place name (text), language/locale selection
+- Output: audio pronunciation (playback), optional short phonetic hint (if available)
+
+**Interface:**
+- Single screen with: locale selector, text field, "Play" button
+- Optional: a tiny "Recent" list (last 3 queries)
+
+**Integrations:**
+- System TTS or cloud TTS with locale-specific voices (prefer system/offline where available)
+- Local offline storage for last queries and selected locale
+
+**Notes:**
+- Keep to one function: type → play; no maps, no geocoding
+- If TTS is offline-unavailable, require network for audio generation

@@ -1,0 +1,27 @@
+# Idea 7 – Street‑Food Word Per Day
+
+Show one street‑food word per day in the user's selected target language.
+
+**Core function (step-by-step):**
+1) User selects a target language (persist locally).
+2) On app open, compute today's index deterministically from (local date + language).
+3) Fetch the corresponding street‑food term from a small curated list for that language.
+4) Display: word (target language), translation (display language), and a very short description.
+5) Cache today's word and avoid changing it until the next day.
+
+**Inputs/Outputs:**
+- Input: target language selection
+- Output: word, translation, brief description
+
+**Interface:**
+- Single daily card UI
+- Elements: word (large), translation (smaller), short description
+- Actions: "Change language", small "Save" toggle
+
+**Integrations:**
+- Local curated street‑food vocabulary JSON per language
+- Local offline storage for language, today’s index, saved items
+
+**Notes:**
+- No images, no nutrition facts; text‑only to stay tiny
+- Offline after install; date uses device clock

@@ -1,0 +1,28 @@
+# Idea 9 – Emoji → Travel Word
+
+Convert a tapped emoji into a matching travel word/phrase in the selected target language.
+
+**Core function (step-by-step):**
+1) User selects a target language (persist locally).
+2) Show a small grid of travel-related emoji categories (e.g., 🍜 food, 🚌 transport, 🏨 lodging, 💰 money, 🚻 restroom, 🏥 hospital, 🆘 help, 🗺️ map, 📶 wifi).
+3) On emoji tap, map the emoji to a canonical travel concept.
+4) Look up the localized word/short phrase for that concept in the target language.
+5) Display the target-language word/phrase plus a short translation; allow copy.
+
+**Inputs/Outputs:**
+- Input: emoji tap, target language
+- Output: target-language word/phrase, translation (display language)
+
+**Interface:**
+- Emoji grid screen
+- Result sheet/card on tap with large target text, small translation, and "Copy"
+
+**Integrations:**
+- Local emoji→concept mapping JSON
+- Local concept→localized term JSON per language
+- Optional: system TTS to speak the word/phrase
+- Local storage for language and recent selections
+
+**Notes:**
+- Keep the concept set tiny (~20 max) to remain lightweight
+- No free-text search; emoji tap only

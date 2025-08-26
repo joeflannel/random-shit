@@ -1,0 +1,26 @@
+# Idea 6 – Polite Intro With Your Name
+
+Suggest one polite introduction line using the user's name in the selected target language.
+
+**Core function (step-by-step):**
+1) On first launch, ask for the user's name and target language; store both locally.
+2) When the user taps "Suggest", select a polite-intro template from a small curated list for that language.
+3) Insert the user's name into the template placeholders.
+4) Display the target-language line plus a short translation in the user's display language.
+5) Optionally provide a "Save" toggle (local only) for quick reuse.
+
+**Inputs/Outputs:**
+- Input: name (text), target language
+- Output: target-language intro line, translation (display language)
+
+**Interface:**
+- Single screen: name field, language dropdown, "Suggest" button
+- Result card: large target-language line; small translation; "Copy" and optional "Save"
+
+**Integrations:**
+- Local curated template JSON per language with placeholders (e.g., {name})
+- Local offline storage for name, language, and saved items
+
+**Notes:**
+- Keep to one function: template → filled line; no accounts, no profiles
+- Works fully offline after install (templates embedded)
