@@ -1,0 +1,28 @@
+# Idea 10 – Bargaining Phrase Per Day
+
+Teach one bargaining phrase per day with a playful twist in the target language.
+
+**Core function (step-by-step):**
+1) User selects a target language (persist locally).
+2) On app open, compute today's index (local date + language) and fetch the phrase.
+3) Display the target-language phrase, translation, and a short "twist" note (e.g., humor or politeness angle).
+4) Optionally provide a "Play" button via system TTS for pronunciation.
+5) Cache today's phrase and avoid changing it until the next day.
+
+**Inputs/Outputs:**
+- Input: target language selection
+- Output: phrase (target language), translation (display language), short twist note
+
+**Interface:**
+- Single daily card UI
+- Elements: phrase (large), translation (smaller), twist note (tiny)
+- Actions: "Change language", small "Save"
+
+**Integrations:**
+- Local curated bargaining phrase JSON per language including twist notes
+- System TTS (optional)
+- Local offline storage for language, today’s index, saved items
+
+**Notes:**
+- Focus strictly on bargaining context; avoid general shopping phrases beyond scope
+- Offline after install; no accounts, no notifications

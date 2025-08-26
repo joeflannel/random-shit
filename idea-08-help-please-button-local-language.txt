@@ -1,0 +1,26 @@
+# Idea 8 – Big Help Button (Local Language)
+
+Play a clear "Help, please!" audio in the selected language when the user presses a big button.
+
+**Core function (step-by-step):**
+1) User selects a language/locale (persist locally).
+2) App prepares the phrase "Help, please!" as text and requests audio via TTS for that locale (prefer system/offline voices).
+3) On big-button press, play the audio and show the phrase text on screen.
+4) Provide a quick retry if playback is interrupted.
+
+**Inputs/Outputs:**
+- Input: language/locale, button press
+- Output: audio playback of the phrase; on-screen phrase text
+
+**Interface:**
+- Full-screen, high-contrast button labeled with the phrase's translation (display language)
+- Smaller text: target-language phrase beneath
+- Tiny language selector icon in a corner; no other controls
+
+**Integrations:**
+- System TTS (preferred) or small cloud TTS fallback
+- Local storage for selected language
+
+**Notes:**
+- If TTS is unavailable offline, show the target-language text prominently as a fallback
+- Keep volume/alerts to system defaults; no permissions beyond audio output

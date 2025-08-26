@@ -1,0 +1,27 @@
+# Idea 1 – Playful Travel Phrase Per Day
+
+Show one playful travel phrase per day in the user's selected target language.
+
+**Core function (step-by-step):**
+1) On first launch, ask the user to pick a target language (dropdown; default to device locale if available).
+2) At app open, compute today's index deterministically from (local date + language) and fetch that phrase from a small curated list for that language.
+3) Display a simple card: phrase (target language), translation (user display language), and a very short context note.
+4) Cache today's phrase locally and avoid changing it until the next local day.
+5) Provide a minimal "Save" toggle to mark the phrase as saved (local only).
+
+**Inputs/Outputs:**
+- Input: target language (one-time or changeable later)
+- Output: phrase (target language), translation (display language), short context note
+
+**Interface:**
+- Single daily card screen
+- Elements: phrase (large), translation (smaller), context note (tiny)
+- Small actions: "Change language", "Save"
+
+**Integrations:**
+- Local curated phrase JSON per language (embedded in app)
+- Local offline storage (key–value) for language selection, today’s phrase index, saved items
+
+**Notes:**
+- No accounts, no notifications, no timeline; strictly one phrase per day
+- Works fully offline after install (data embedded); date uses device clock
