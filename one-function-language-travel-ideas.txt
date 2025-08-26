@@ -1,0 +1,7 @@
+1. An app that delivers one hostel check-in phrase per day in your target language, with a simple example line.
+2. An app that lets you snap a sign or menu and returns a clean, traveler-friendly translation of the key text.
+3. An app that plays a loud, clear recording of a single emergency phrase (“I need help”) in the local language at the press of a button.
+4. An app that turns any item you type (e.g., “bug spray”, “power bank”) into the word and phonetic pronunciation in the local language.
+5. An app that speaks any number or price you enter in the local language, once slowly and once at normal speed.
+6. An app that, when you cross into a new country, generates a tiny 10‑word pack for transport and directions in the local language.
+7. An app that drafts a polite one-sentence self‑introduction using your name and hometown in the local language, ready to read or play.
