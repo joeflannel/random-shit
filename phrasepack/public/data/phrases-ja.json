@@ -1,0 +1,11 @@
+{
+  "locale": "ja",
+  "phrases": [
+    { "id": "hello", "category": "あいさつ", "native": "こんにちは", "translation": "Hello", "transliteration": "konnichiwa", "sentenceNative": "こんにちは。", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "ていねい", "native": "お願いします", "translation": "Please", "sentenceNative": "水をお願いします。", "sentenceTranslation": "Water, please." },
+    { "id": "thank-you", "category": "ていねい", "native": "ありがとう", "translation": "Thank you", "sentenceNative": "ご協力ありがとうございます。", "sentenceTranslation": "Thank you for your cooperation." },
+    { "id": "where-is", "category": "道案内", "native": "どこですか", "translation": "Where is...", "sentenceNative": "駅はどこですか。", "sentenceTranslation": "Where is the station?" },
+    { "id": "help", "category": "緊急", "native": "助けて！", "translation": "Help!", "sentenceNative": "助けてください！", "sentenceTranslation": "Please help!" }
+  ]
+}
+

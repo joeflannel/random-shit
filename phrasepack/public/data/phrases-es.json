@@ -1,0 +1,11 @@
+{
+  "locale": "es",
+  "phrases": [
+    { "id": "hello", "category": "saludos", "native": "Hola", "translation": "Hello", "sentenceNative": "Hola.", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "cortesía", "native": "Por favor", "translation": "Please", "sentenceNative": "Una mesa para dos, por favor.", "sentenceTranslation": "A table for two, please." },
+    { "id": "thank-you", "category": "cortesía", "native": "Gracias", "translation": "Thank you", "sentenceNative": "Gracias por tu ayuda.", "sentenceTranslation": "Thank you for your help." },
+    { "id": "where-is", "category": "direcciones", "native": "¿Dónde está...", "translation": "Where is...", "sentenceNative": "¿Dónde está la estación?", "sentenceTranslation": "Where is the station?" },
+    { "id": "help", "category": "emergencia", "native": "¡Ayuda!", "translation": "Help!", "sentenceNative": "¡Ayuda, por favor!", "sentenceTranslation": "Help, please!" }
+  ]
+}
+

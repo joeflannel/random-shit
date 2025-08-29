@@ -1,0 +1,11 @@
+{
+  "locale": "fr",
+  "phrases": [
+    { "id": "hello", "category": "salutations", "native": "Bonjour", "translation": "Hello", "transliteration": "bohn-zhoor", "sentenceNative": "Bonjour.", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "politesse", "native": "S'il vous plaît", "translation": "Please", "sentenceNative": "Un café, s'il vous plaît.", "sentenceTranslation": "A coffee, please." },
+    { "id": "thank-you", "category": "politesse", "native": "Merci", "translation": "Thank you", "sentenceNative": "Merci beaucoup pour votre aide.", "sentenceTranslation": "Thank you very much for your help." },
+    { "id": "where-is", "category": "directions", "native": "Où est...", "translation": "Where is...", "sentenceNative": "Où est la gare ?", "sentenceTranslation": "Where is the train station?" },
+    { "id": "help", "category": "urgence", "native": "À l'aide !", "translation": "Help!", "sentenceNative": "À l'aide, s'il vous plaît !", "sentenceTranslation": "Help, please!" }
+  ]
+}
+

@@ -1,0 +1,11 @@
+{
+  "locale": "it",
+  "phrases": [
+    { "id": "hello", "category": "saluti", "native": "Ciao", "translation": "Hello", "sentenceNative": "Ciao, come stai?", "sentenceTranslation": "Hello, how are you?" },
+    { "id": "please", "category": "cortesia", "native": "Per favore", "translation": "Please", "sentenceNative": "Un caffè, per favore.", "sentenceTranslation": "A coffee, please." },
+    { "id": "thank-you", "category": "cortesia", "native": "Grazie", "translation": "Thank you", "sentenceNative": "Grazie per il tuo aiuto.", "sentenceTranslation": "Thank you for your help." },
+    { "id": "where-is", "category": "direzioni", "native": "Dov'è...", "translation": "Where is...", "sentenceNative": "Dov'è la stazione?", "sentenceTranslation": "Where is the station?" },
+    { "id": "help", "category": "emergenza", "native": "Aiuto!", "translation": "Help!", "sentenceNative": "Aiuto, per favore!", "sentenceTranslation": "Help, please!" }
+  ]
+}
+

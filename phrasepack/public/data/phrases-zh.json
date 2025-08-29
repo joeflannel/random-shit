@@ -1,0 +1,11 @@
+{
+  "locale": "zh",
+  "phrases": [
+    { "id": "hello", "category": "问候", "native": "你好", "translation": "Hello", "transliteration": "nǐ hǎo", "sentenceNative": "你好。", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "礼貌", "native": "请", "translation": "Please", "sentenceNative": "请给我一杯水。", "sentenceTranslation": "Please give me a glass of water." },
+    { "id": "thank-you", "category": "礼貌", "native": "谢谢", "translation": "Thank you", "sentenceNative": "谢谢你的帮助。", "sentenceTranslation": "Thank you for your help." },
+    { "id": "where-is", "category": "方向", "native": "在哪里…", "translation": "Where is...", "sentenceNative": "火车站在哪里？", "sentenceTranslation": "Where is the train station?" },
+    { "id": "help", "category": "紧急", "native": "救命！", "translation": "Help!", "sentenceNative": "请帮帮我！", "sentenceTranslation": "Please help me!" }
+  ]
+}
+

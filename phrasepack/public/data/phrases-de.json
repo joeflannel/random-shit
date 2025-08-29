@@ -1,0 +1,11 @@
+{
+  "locale": "de",
+  "phrases": [
+    { "id": "hello", "category": "begrüßung", "native": "Hallo", "translation": "Hello", "transliteration": "Halo", "sentenceNative": "Hallo.", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "höflichkeit", "native": "Bitte", "translation": "Please", "sentenceNative": "Ein Wasser, bitte.", "sentenceTranslation": "A water, please." },
+    { "id": "thank-you", "category": "höflichkeit", "native": "Danke", "translation": "Thank you", "sentenceNative": "Danke für Ihre Hilfe.", "sentenceTranslation": "Thank you for your help." },
+    { "id": "where-is", "category": "wege", "native": "Wo ist...", "translation": "Where is...", "sentenceNative": "Wo ist der Bahnhof?", "sentenceTranslation": "Where is the train station?" },
+    { "id": "help", "category": "notfall", "native": "Hilfe!", "translation": "Help!", "sentenceNative": "Hilfe, bitte!", "sentenceTranslation": "Help, please!" }
+  ]
+}
+

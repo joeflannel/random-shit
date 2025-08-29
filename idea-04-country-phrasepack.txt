@@ -1,0 +1,29 @@
+# Idea 4 – Tiny Country Phrasepack
+
+Provide a tiny phrasepack (50 essentials) for the selected country in its primary language(s).
+
+**Core function (step-by-step):**
+1) User selects a country from a searchable list.
+2) App maps the country to its primary language(s) using a small local dataset.
+3) Load a small curated phrase list for that language/locale (greetings, directions, food, emergencies).
+4) Display phrases and words in a simple list; tapping shows details = sentence for context + translation.
+5) Play audio via TTS for the current locale voice.
+6) Cache the selected country and last viewed phrase locally.
+
+**Inputs/Outputs:**
+- Input: country selection (and optional manual language override)
+- Output: list of essential phrases with translations and audio playback
+
+**Interface:**
+- Country picker screen
+- Phrase list screen (sections by category)
+
+**Integrations:**
+- Local country→language mapping JSON (ISO-3166 + ISO-639)
+- Local curated phrase JSON per language/locale
+- System TTS for playback
+- Local storage for selections
+
+**Notes:**
+- Cap at ~50 phrases to stay tiny
+- Keep everything offline after install; no accounts, no syncing

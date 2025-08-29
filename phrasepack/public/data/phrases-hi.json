@@ -1,0 +1,11 @@
+{
+  "locale": "hi",
+  "phrases": [
+    { "id": "hello", "category": "नमस्ते", "native": "नमस्ते", "translation": "Hello", "transliteration": "namaste", "sentenceNative": "नमस्ते।", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "विनम्रता", "native": "कृपया", "translation": "Please", "transliteration": "kripya", "sentenceNative": "कृपया पानी दीजिए।", "sentenceTranslation": "Please give water." },
+    { "id": "thank-you", "category": "विनम्रता", "native": "धन्यवाद", "translation": "Thank you", "transliteration": "dhanyavaad", "sentenceNative": "आपकी मदद के लिए धन्यवाद।", "sentenceTranslation": "Thank you for your help." },
+    { "id": "where-is", "category": "दिशाएँ", "native": "कहाँ है...", "translation": "Where is...", "transliteration": "kahan hai", "sentenceNative": "रेलवे स्टेशन कहाँ है?", "sentenceTranslation": "Where is the railway station?" },
+    { "id": "help", "category": "आपातकाल", "native": "बचाइए!", "translation": "Help!", "transliteration": "bachaiye", "sentenceNative": "कृपया मदद कीजिए!", "sentenceTranslation": "Please help!" }
+  ]
+}
+

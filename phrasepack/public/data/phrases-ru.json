@@ -1,0 +1,11 @@
+{
+  "locale": "ru",
+  "phrases": [
+    { "id": "hello", "category": "приветствие", "native": "Здравствуйте", "translation": "Hello", "transliteration": "zdrást-vooy-tye", "sentenceNative": "Здравствуйте.", "sentenceTranslation": "Hello." },
+    { "id": "please", "category": "вежливость", "native": "Пожалуйста", "translation": "Please", "transliteration": "po-zhal-sta", "sentenceNative": "Стакан воды, пожалуйста.", "sentenceTranslation": "A glass of water, please." },
+    { "id": "thank-you", "category": "вежливость", "native": "Спасибо", "translation": "Thank you", "transliteration": "spa-see-ba", "sentenceNative": "Спасибо за вашу помощь.", "sentenceTranslation": "Thank you for your help." },
+    { "id": "where-is", "category": "направления", "native": "Где находится...", "translation": "Where is...", "transliteration": "gde nakhoditsya", "sentenceNative": "Где находится вокзал?", "sentenceTranslation": "Where is the train station?" },
+    { "id": "help", "category": "чрезвычайная ситуация", "native": "Помогите!", "translation": "Help!", "transliteration": "pa-ma-gee-tye", "sentenceNative": "Пожалуйста, помогите!", "sentenceTranslation": "Please help!" }
+  ]
+}
+
